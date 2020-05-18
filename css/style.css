@@ -97,7 +97,7 @@
     }
 
     .content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .content img {
@@ -107,6 +107,7 @@
     .content .tombol {
         font-size: 14px;
         line-height: 16px;
+        display: inline-block;
     }
 
  }
