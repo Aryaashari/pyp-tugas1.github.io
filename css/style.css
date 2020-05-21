@@ -26,8 +26,8 @@
     width: 120px;
 }
 
-/* Jumbotron */
-.jumbotron {
+/* hero */
+.hero {
     background-image: url("../image/bg-vector.png");
     background-repeat: no-repeat;
     height: 900px;
@@ -83,11 +83,13 @@
 
 /* Handphone */
 @media (max-width: 992px) { 
-    /* Jumbotron */
-    .jumbotron {
+    /* hero */
+    .hero {
+        position: absolute;
         height: 800px;
+        width: 100%;
         background-size: 200% 800px;
-        background-position-x: -200px !important;
+        background-position-x: -150px !important;
     }
 
     .content .display-4 {
@@ -105,9 +107,9 @@
     }
 
     .content .tombol {
-        font-size: 14px;
-        line-height: 16px;
+        padding: 13px 30px;
         display: inline-block;
+        font-size: 14px;
     }
 
  }
